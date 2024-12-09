@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace EFCodeFirst_0.SimulationEntities
 {
+    //Recursive Many To Many
     public class Mac : BaseEntity
     {
         public int EvSahibiTakimId { get; set; }
